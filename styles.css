@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif ;
+    background-color: #f3eeee;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff5733; /* Change color on hover */
+}
+
+/* Style the sections */
+section {
+    padding: 1% 15%;
+    text-align: center;
+}
+
+.About img{
+    padding: 1% 15%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+     
+}
+.h4{
+    font-style: italic;
+    color: rgb(47, 47, 48);
+    font-size: larger;
+}
+.p {
+    font: 1em sans-serif;
+    text-align: start;
+}
+
+/* Style the project boxes */
+.project {
+    border: 1px solid #ddd;
+    padding: 50px;
+    margin: 10px;
+    background-color: #f6f7f8;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    color: #3a3939;
+}
+
+.project img {
+    max-width: 50%;
+    max-height: 2%;
+}
+
+.project:hover {
+    transform: translateY(-5px); /* Add a subtle lift on hover */
+}
+
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Additional styles can be added for fonts, colors, and other design elements. */
